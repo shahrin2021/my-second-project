@@ -1,0 +1,649 @@
+/*************************************************************
+				 UNIVERSEL CSS START
+**************************************************************/
+*{
+	outline: none;
+}
+body{
+	background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6{
+		font-family: 'Dosis', sans-serif;
+}
+
+a, span, p, li, button, input{
+	font-family: 'Open Sans', sans-serif;
+}
+
+img{
+	max-width: 100%;
+}
+
+ul li{
+	list-style: none;
+}
+ a{
+	text-decoration: none !important;
+}
+
+/*************************************************************
+				UNIVERSEL CSS END
+**************************************************************/
+
+
+
+
+
+/*************************************************************
+				HEADER SECTION START
+**************************************************************/
+ header{
+ 	height: 80px;
+ 	background-color: #fff;
+ }
+.my-menu ul li a{
+	padding:0 30px !important;
+	font-size: 15px;
+	font-weight: 400;
+	color: #000000 !important;
+	line-height: 62px;
+	transition:.5s;                                                                            
+}
+
+.my-menu ul li a:hover{
+	color: #e53838 !important ;
+}
+
+/*************************************************************
+				HEADER SECTION END
+**************************************************************/
+
+
+
+/*************************************************************
+				SLIDER SECTION START
+**************************************************************/
+.slider-section{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	height: 730px;
+	position: relative;
+
+}
+
+
+.slider-section:after{
+	content:"";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+	opacity: .5;
+	z-index: 1;
+}
+
+.slider-text {
+	position: relative;
+	z-index: 2;
+}
+.slider-text h1{
+	font-size: 60px;
+	font-weight: 400;
+	color:#ffffff;
+	margin:0;
+	margin-bottom: 40px;
+}
+
+.slider-text p{
+	font-size: 24px;
+	font-weight: 400;
+	color:#ffffff;
+	margin-bottom: 54px;
+}
+
+.slider-btn{
+		
+}
+
+.slider-btn a{
+	font-size: 24px;
+	font-weight: 400;
+	padding: 15px 90px;
+	border: 1px solid #ef484d;
+	background-color:  #ef484d;
+	color: #ffffff;
+}
+
+
+
+
+
+
+/*************************************************************
+					SLIDER SECTION END
+**************************************************************/
+
+
+/*************************************************************
+					WORK SECTION START
+**************************************************************/
+
+
+.work-text h3{
+	font-size: 24px;
+	font-weight: 400px;
+	color:#333333;
+	padding: 25px 0;
+
+}
+
+.work-form form{
+	display: flex;
+	justify-content: center;
+	
+}
+
+.work-text p{
+	font-size: 15px;
+	color: #a5a5a5;
+}
+
+.work-section{
+	background-color:#f3f3f3;
+	margin-top: -65px;
+	padding-bottom:80px;
+}
+.work-items{
+	box-shadow: 3px 4px 10px 0;
+	padding: 30px 20px;
+	background-color: #fff;
+	height: 100%;
+	position: relative;
+	z-index: 2;
+}
+
+.search{
+	height: 55px;
+	flex: 1;
+	border:none;
+	background-color: #fff;	
+	padding: 0 25px;
+	
+}
+
+.work-form input{
+
+}
+
+.button{
+	width: 170px;
+	height: 55px;
+	background-color: #ef484d;
+	border:1px solid #ef484d;
+/*	padding: 0 10px;*/
+	
+
+
+}
+
+.domain{
+	margin-top: 30px;
+}
+
+.domain li{
+	padding: 0 12px;
+}
+
+.work-heading h2{
+	margin-top: 40px;
+	color: #ef484d;
+	font-size: 36px;
+}
+
+.work-heading p{
+	font-size: 15px;
+	color:#a5a5a5; 
+	padding: 30px 0;
+}
+
+.domain li a{
+	font-size: 18px;
+	font-weight: 400;
+	color: #a4a4a4;
+}
+
+
+
+/*************************************************************
+				WORK SECTION END
+**************************************************************/
+
+
+
+/*************************************************************
+					PRICING SECTION START
+**************************************************************/
+.pricing-section{
+	margin-top: 60px;
+	padding-bottom: 80px;
+}
+
+.pricing-box-items:hover .price-box{
+	background-color: #ef484d; 
+}
+
+.pricing-box-items:hover .pricing-button{
+	background-color: #ef484d;
+}
+
+.pricing-heading h2{
+	font-size: 36px;
+	font-weight: 400;
+	color:  #ef484d;
+	margin-bottom: 20px;
+}
+
+.pricing-heading p{
+	font-size: 15px;
+	font-weight: 400;
+	color: #a5a5a5;
+	margin-bottom: 65px;
+
+}
+
+.pricing-box-items{
+	box-shadow: 4px 5px 10px 0;
+	height: 100%;
+}
+
+.price-box{
+	background-color: #2a363f;
+	transition:.5s;
+}
+.price-box h2{
+	font-size: 24px;
+	font-weight: 400;
+	color: #fff;
+	padding-top: 15px;
+
+}
+
+.price-box p{
+	font-size: 40px;
+	padding-bottom: 15px;
+	color: #fff;
+}
+
+.pricing-box-contant{
+	padding: 0 40px;
+}
+
+.pricing-box-contant ul li{
+	line-height: 36px;
+	font-size: 15px;
+	color: #555555;
+}
+
+.pricing-button{
+	background-color:#2a363f;
+	padding: 20px 0; 
+	transition:.5s;
+
+}
+
+.pricing-button a{
+	font-size: 15px;
+	display: block;
+	color: #fff;
+}
+
+/*************************************************************
+				PRICING SECTION END 
+**************************************************************/
+
+
+
+
+/*************************************************************
+				JUMBO SECTION START
+**************************************************************/
+.jumbo-text h6{
+	font-size: 30px;
+}
+
+.jumbo-section{
+	background-color: #ef484d;
+	padding: 60px 0;
+}
+
+.jumbo-button a{
+	border:1px solid  #ef484d ;
+	font-size: 15px;
+	padding: 15px 40px;
+	background-color: #fff;
+	color: #ef484d ;
+	
+}
+
+.jumbo-button a:hover{
+	background-color: #ef484d ;
+	color: #fff;
+}
+
+/*************************************************************
+				JUMBO SECTION  END
+**************************************************************/
+
+
+/*************************************************************
+				SERVICE SECTION START
+**************************************************************/
+.service-heading h2{
+	font-size: 36px;
+	font-weight: 400;
+	color: #ef484d;
+	margin-bottom: 20px;
+}
+
+.service-heading p{
+	font-size: 15px;
+	color:#a5a5a5; 
+}
+
+.service-section{
+	padding-bottom: 60px;
+}
+
+.service-icon img{
+	margin-top: 20px;
+}
+
+.service-text h3{
+	font-size: 24px;
+	padding: 25px 0;
+}
+
+.service-text p{
+	font-size: 15px;
+}
+
+.service-items{
+	margin-bottom: 30px;
+	height: 100%;
+}
+
+/*************************************************************
+				SERVICE SECTION END
+**************************************************************/
+
+
+/*************************************************************
+				`	TASTIMONIAL SECTION START
+**************************************************************/
+.testimonial-items i{
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	border:1px solid  #ef484d;
+	border-radius: 50%;
+	font-size: 50px;
+	background-color: #ef484d;
+	color: #fff;
+	margin-top: 30px;
+}
+
+.testimonial-items h2{
+	font-size: 36px;
+	color:  #ef484d;
+	font-weight: 400;
+	margin-bottom: 20px;
+	margin-top: 80px;
+}
+
+.testimonial-items p{
+	font-size: 15px;
+	color:#a5a5a5;
+	line-height: 30px 
+}
+
+.testimonial-items h6{
+	font-size: 18px;
+	margin-top: 15px;
+}
+
+.testimonial-items span{
+	font-size: 15px;
+	color:  #ef484d;
+}
+
+.testimonial-section{
+	background-color: #f0f0f0;
+	padding-bottom: 80px;
+}
+
+/*************************************************************
+				TASTIMONIAL SECTION END
+**************************************************************/
+
+
+/*************************************************************
+				SUBSCRIBE SECTION START
+**************************************************************/
+.subscribtion-section{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 350px;
+	display: flex;
+	align-items: center;
+	position: relative;
+
+}
+
+.subscribtion-section:after{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color:#39314a;
+	opacity: .8;
+}
+
+
+.subscribe-items{
+	position: relative;
+	z-index: 2;
+}
+
+
+
+
+}
+.subscribe-items h2{
+	font-size: 36px;
+	color: #fff;
+	margin-bottom: 60px;
+}
+
+
+
+
+.subscribe-items p{
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 25px;
+}
+
+.bg-email{
+	height: 50px;
+	padding: 0 20px;
+	border: none;
+	flex: 1;
+}
+
+.email-form{
+	border: 1px solid #dddd;
+	width: 100%;
+}
+ .bg-button{
+	width: 170px;
+	height: 50px;
+	background-color: #ef484d;
+	border:1px solid #ef484d;
+	padding: 0 20px;
+	
+	border: none;
+}
+
+/*************************************************************
+			SUBSCRIBE SECTION END
+**************************************************************/
+
+
+
+
+/*************************************************************
+				ABOUT SECTION START
+**************************************************************/
+.about-section{
+	padding: 80px 0;
+}
+
+.about-items{
+	margin-bottom: 30px;
+}
+
+.about-icon{
+	width: 180px;
+	height: 180px;
+	background-color: #ddd;
+	line-height: 180px;
+	text-align: center;
+}
+
+.about-icon{
+	width: 30%;
+}
+
+.about-text{
+	width:70%;
+	margin-left: 30px;
+}
+
+.about-text p{
+	font-size: 15px;
+	line-height: 24px;
+
+}
+
+/*************************************************************
+				ABOUT SECTION END
+**************************************************************/
+
+
+
+/*************************************************************
+					CONTACT SECTION START
+**************************************************************/
+.contact-form-box input{
+	width: 100%;
+	margin-bottom: 20px;
+	height: 47px;
+	padding:0 17px;
+
+
+}
+
+.contact-textbox textarea{
+	width: 100%;
+	height: 193px;
+	padding:0 20px;
+}
+
+
+.parsonal-info p{
+	font-size: 18px;
+	font-weight: bold;
+	display: flex;
+	line-height: 20px;
+	
+}
+
+.contact-textbox input{
+	padding: 15px 30px;
+	background-color:#ef484d; 
+	border: 1px solid #ef484d;
+	margin-top: 30px;
+
+}
+
+.parsonal-info {
+
+}
+
+.parsonal-info span{
+	font-size: 15px;
+	margin-left: 20px;
+	font-weight: 200;
+
+
+
+}
+
+.social-icon a i{
+	font-size: 30px;
+	color: #ef484d;
+	padding: 0 25px;
+}
+
+/*************************************************************
+					CONTACT SECTION END
+**************************************************************/
+
+
+/*************************************************************
+
+**************************************************************/
+footer{
+	height: 95px;
+	background-color: #2a363f;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+
+
+}
+
+.footer-heading{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+.footer-heading p{
+	color: #fff;
+	font-size: 15px;
+	margin-bottom: 0;
+}
+
+.footer-btn a i{
+	width: 60px;
+	height: 60px;
+	border: 1px solid #000;
+	background-color: #000;
+	color: #fff;
+	line-height: 60px;
+	text-align:center;
+}
